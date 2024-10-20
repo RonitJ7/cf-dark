@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "CF-Dark",
+    "version": "1.0",
+    "description" : "dark mode for codeforces",
+    "background":{
+        "service_worker":"background.js"
+    },
+    "action":{
+       "default_icon":"codeforces.png",
+       "default_title": "CF-Dark"
+    },
+    "permissions":["activeTab","scripting","tabs","storage"],
+    "host_permissions": [
+        "https://codeforces.com/*"
+      ]
+}
